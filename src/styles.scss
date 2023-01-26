@@ -1,0 +1,123 @@
+/* Imports */
+
+/* Font faces */
+@font-face {
+	font-family: Usual;
+	src: url('assets/fonts/Usual/Regular.ttf');
+}
+
+
+/* Custom properties */
+:root {
+	--font-size: .85em;
+	--font-family: Usual, sans-serif;
+	--spacing: 1em;
+	--border-radius: .25em;
+
+	--primary-color: #007f9a;
+	--secondary-color: #64748B;
+	--accent-color: #990f44;
+
+	--success-color: #22C55E;
+	--info-color: #3B82F6;
+	--warning-color: #F59E0B;
+	--danger-color: #EF4444;
+
+	--body-padding: 1em;
+
+	--breakpoint-sm: 36em;
+	--breakpoint-md: 48em;
+	--breakpoint-lg: 62rem;
+	--breakpoint-xl: 75em;
+}
+
+/* Defaults */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img, picture, svg, video {
+	display: block;
+	max-width: 100%;
+}
+
+html,
+body,
+app-root {
+	height: 100%;
+	font-size: var(--font-size);
+	font-family: var(--font-family);
+}
+
+/* Body styling */
+body > app-root,
+section {
+	display: flex;
+	flex-flow: column;
+}
+
+section {
+	gap: var(--spacing);
+}
+
+body > app-root > ,
+section > {
+	header,
+	footer {
+		flex: 0 1 auto;
+	}
+}
+
+body > app-root > main,
+section > div {
+	flex: 1 1 auto;
+}
+
+body > app-root > main {
+	background: linear-gradient(180deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, 0) 5em), #EFF3F8;
+	padding-block: 5em var(--spacing);
+	padding-inline: var(--body-padding);
+}
+
+body > app-root > {
+	header,
+	main,
+	footer {
+		padding-inline: var(--body-padding);
+	}
+}
+
+/*  Media queries */
+
+/* - Small */
+@media (min-width: 36em) {
+	:root {
+		--body-padding: calc((100vw - var(--breakpoint-sm)) / 2);
+	}
+}
+
+/* - Medium */
+@media (min-width: 48em) {
+	:root {
+		--body-padding: calc((100vw - var(--breakpoint-md)) / 2);
+	}
+}
+
+/* - Large */
+@media (min-width: 62em) {
+	:root {
+		--body-padding: calc((100vw - var(--breakpoint-lg)) / 2);
+	}
+}
+
+/* - Extra Large */
+@media (min-width: 75em) {
+	:root {
+		--body-padding: calc((100vw - var(--breakpoint-xl)) / 2);
+	}
+}

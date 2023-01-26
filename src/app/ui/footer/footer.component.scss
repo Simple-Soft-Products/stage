@@ -1,0 +1,10 @@
+footer {
+	background: #F8F9FA;
+	border-top: 1px solid #DEE2E6;
+	padding-block: 1em;
+	padding-inline: var(--body-padding);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
