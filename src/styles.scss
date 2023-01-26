@@ -10,7 +10,7 @@
 /* Custom properties */
 :root {
 	--font-size: .85em;
-	--font-family: Usual, sans-serif;
+	--font-family: Usual, Arial, Helvetica, sans-serif;
 	--spacing: 1em;
 	--border-radius: .25em;
 
@@ -98,6 +98,7 @@ body > app-root > {
 @media (min-width: 36em) {
 	:root {
 		--body-padding: calc((100vw - var(--breakpoint-sm)) / 2);
+		--font-size: .9em;
 	}
 }
 
@@ -105,6 +106,7 @@ body > app-root > {
 @media (min-width: 48em) {
 	:root {
 		--body-padding: calc((100vw - var(--breakpoint-md)) / 2);
+		--font-size: 1em;
 	}
 }
 

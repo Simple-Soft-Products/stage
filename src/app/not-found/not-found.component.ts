@@ -7,9 +7,5 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./not-found.component.scss']
 })
 export class NotFoundComponent {
-	constructor(
-		private title: Title
-	) {
-		this.title.setTitle('404')
-	}
+
 }

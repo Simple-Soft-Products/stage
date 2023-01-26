@@ -9,9 +9,13 @@
 	</header>
 	<div>
 		<p-card header="Welkom bij SSP">
+			<ng-template pTemplate="content">
+				<p>Leuk dat je stage bij ons wilt lopen. Om je kennis in JavaScript te testen en je te introduceren aan <a href="https://angular.io/">Angular</a> (Het framework waar wij in werken) hebben ik deze applicatie ontwikkeld.</p>
+				<p>Ik heb een aantal opdrachten voor je bedacht die je kunt vinden in de Readme in GitHub. Hier staat een stappenplan van hoe je het framework up & running kunt krijgen.</p>
+			</ng-template>
 
 			<ng-template pTemplate="footer">
-				<p-button label="Naar Stage" icon="fa-solid fa-arrow-right" iconPos="right" routerLink="/stage"></p-button>
+				<p-button label="Naar Stage" icon="fa-solid fa-arrow-right" iconPos="right" styleClass="p-button-help p-button-rounded p-button-text" routerLink="/stage"></p-button>
 			</ng-template>
 		</p-card>
 	</div>

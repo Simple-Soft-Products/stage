@@ -7,10 +7,6 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./start.component.scss']
 })
 export class StartComponent {
-	constructor(
-		private title: Title
-	) {
-		this.title.setTitle('Start')
-	}
+
 
 }
