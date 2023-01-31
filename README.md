@@ -31,7 +31,17 @@ Dit project is gemaakt om stagiares te testen op hun kennis.
 
 <h2 id="kenmerken">✨ Kenmerken</h2>
 
-De website is gebouwd in Angular in combinatie met PrimeNG als ui library & Font Awesome voor de icons.
+Hier een lijst met de tools & technieken.
+
+Tools
+- Angular (Framework)
+- PrimeNG (ui library)
+- Font Awesome (Icons)
+
+Technieken
+- HTML (Markup)
+- SCSS (Styling)
+- TypeScript (Interactivity)
 
 <h2 id="installatie">📥 Installatie</h2>
 
