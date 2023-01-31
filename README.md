@@ -23,20 +23,18 @@
 
 <h2 id="beschrijving">ℹ️ Beschrijving</h2>
 
+Dit project is gemaakt om stagiares te testen op hun kennis. In het project zitten 
 ***
-
 
 <h2 id="kenmerken">✨ Kenmerken</h2>
 
 De website is gebouwd in Angular versie 15. Dit Framework is geschreven in HTML, SCSS & TypeScript.
-
 
 <h2 id="bronnen">🌍 Bronnen</h2>
 
 - [Angular](https://angular.io/)
 - [PrimeNG](https://primeng.org/)
 - [Font Awesome](https://fontawesome.com/)
-
 
 <h2 id="licenties">🪪 Licenties</h2>
 
