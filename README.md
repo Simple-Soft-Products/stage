@@ -23,7 +23,7 @@
 
 <h2 id="beschrijving">ℹ️ Beschrijving</h2>
 
-Dit project is gemaakt om stagiares te testen op hun kennis. In het project zitten 
+Dit project is gemaakt om stagiares te testen op hun kennis.
 ***
 
 <h2 id="kenmerken">✨ Kenmerken</h2>
