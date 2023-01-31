@@ -13,6 +13,9 @@
     <a href="#kenmerken">Kenmerken</a>
   </li>
   <li>
+    <a href="#installatie">Installatie</a>
+  </li>
+  <li>
     <a href="#bronnen">Bronnen</a>
   </li>
   <li>
@@ -29,6 +32,10 @@ Dit project is gemaakt om stagiares te testen op hun kennis.
 <h2 id="kenmerken">✨ Kenmerken</h2>
 
 De website is gebouwd in Angular in combinatie met PrimeNG als ui library & Font Awesome voor de icons.
+
+<h2 id="installatie">📥 Installatie</h2>
+
+***
 
 <h2 id="bronnen">🌍 Bronnen</h2>
 
