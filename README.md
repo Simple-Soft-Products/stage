@@ -38,4 +38,4 @@ De website is gebouwd in Angular versie 15. Dit Framework is geschreven in HTML,
 
 <h2 id="licenties">🪪 Licenties</h2>
 
-Geen licenties / No license
+Geen licenties / No licenses
