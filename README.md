@@ -28,7 +28,7 @@ Dit project is gemaakt om stagiares te testen op hun kennis. In het project zitt
 
 <h2 id="kenmerken">✨ Kenmerken</h2>
 
-De website is gebouwd in Angular versie 15. Dit Framework is geschreven in HTML, SCSS & TypeScript.
+De website is gebouwd in Angular in combinatie met PrimeNG als ui library & Font Awesome voor de icons.
 
 <h2 id="bronnen">🌍 Bronnen</h2>
 
