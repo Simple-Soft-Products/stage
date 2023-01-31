@@ -3,6 +3,9 @@
   <span>Simple Soft Products</span>
 </h1>
 
+![image](https://user-images.githubusercontent.com/47314813/215800152-54b09dc0-82ae-4449-8dca-4b4970a68e51.png)
+
+
 <h2 id="inhoud">📦 Inhoud</h2>
 
 <ol>
@@ -27,7 +30,6 @@
 <h2 id="beschrijving">ℹ️ Beschrijving</h2>
 
 Dit project is gemaakt om stagiares te testen op hun kennis.
-***
 
 <h2 id="kenmerken">✨ Kenmerken</h2>
 
