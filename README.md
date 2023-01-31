@@ -35,7 +35,15 @@ De website is gebouwd in Angular in combinatie met PrimeNG als ui library & Font
 
 <h2 id="installatie">📥 Installatie</h2>
 
-***
+1. Download & installeer [Visual Studio Code](https://code.visualstudio.com/). Je kunt het ook in de Windows store vinden.
+2. Download & installeer [NodeJS](https://nodejs.org/)
+3. Download & installeer [Yarn](https://yarnpkg.com/getting-started/install)
+4. Download & installeer [Angular](https://angular.io/guide/setup-local)
+5. Fork deze repository.
+6. Clone het naar je computer.
+7. Open Visual Studio Code in het project & open de terminal.
+8. Voer de volgende commando uit `yarn` of `yarn install`
+9. Start de applicatie door de volgende commando uit te voeren `yarn start`
 
 <h2 id="bronnen">🌍 Bronnen</h2>
 
