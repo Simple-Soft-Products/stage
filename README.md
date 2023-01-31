@@ -36,11 +36,13 @@ Dit project is gemaakt om stagiares te testen op hun kennis.
 Hier een lijst met de tools & technieken.
 
 Tools
+- Visual Studio Code (Code editor)
+- Polypane (Browser)
+
+Technieken
 - Angular (Framework)
 - PrimeNG (ui library)
 - Font Awesome (Icons)
-
-Technieken
 - HTML (Markup)
 - SCSS (Styling)
 - TypeScript (Interactivity)
