@@ -7,10 +7,9 @@ import { UiModule } from './ui/ui.module';
 
 const routes: Route[] = [
 	{ path: 'start', title: 'Start', loadChildren: () => import('./start/start.module').then(m => m.StartModule) },
-	{ path: '404', title: '404', loadChildren: () => import('./not-found/not-found.module').then(m => m.NotFoundModule) },
 	{ path: 'stage', title: 'Stage', loadChildren: () => import('./internship/internship.module').then(m => m.InternshipModule) },
 	{ path: '', redirectTo: 'start', pathMatch: 'full' },
-	{ path: '**', redirectTo: '404' }
+	{ path: '**', title: '404', loadChildren: () => import('./not-found/not-found.module').then(m => m.NotFoundModule) },
 ]
 
 @NgModule({
