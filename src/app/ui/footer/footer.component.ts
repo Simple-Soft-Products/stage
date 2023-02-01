@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class FooterComponent {
 	year: Number = new Date().getFullYear()
 	author: String = 'Luuk Brauckmann'
+	linkedinLink: string = 'https://www.linkedin.com/in/luuk-brauckmann-4ba662171/'
 	gitHubLink: string = 'https://github.com/luukbrauckmann'
-
-	goToGithub = () => window.open(this.gitHubLink,'_blank')
 }

@@ -1,0 +1,19 @@
+.countdown {
+	display: flex;
+	justify-content: space-between;
+	gap: var(--spacing);
+}
+
+.countdown-item {
+	flex: 1;
+	text-align: center;
+}
+
+.countdown-item-time,
+.countdown-item-label {
+	display: block;
+}
+
+.countdown-item-time {
+	font-size: 6em;
+}

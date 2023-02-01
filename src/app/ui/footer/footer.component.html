@@ -4,5 +4,9 @@
 		<div>Gemaakt door: {{ author }}</div>
 	</div>
 
-	<p-button icon="fa-brands fa-github" styleClass="p-button-secondary p-button-rounded p-button-text fa-2xl" (onClick)="goToGithub()"></p-button>
+	<div>
+		<a pButton class="p-button-secondary p-button-rounded p-button-text fa-2xl" icon="fa-brands fa-linkedin" [href]="linkedinLink" target="_blank"></a>
+		<a pButton class="p-button-secondary p-button-rounded p-button-text fa-2xl" icon="fa-brands fa-github" [href]="gitHubLink" target="_blank"></a>
+	</div>
+
 </footer>
