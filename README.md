@@ -43,6 +43,7 @@ Technieken
 - Angular (Framework)
 - PrimeNG (ui library)
 - Font Awesome (Icons)
+- Yarn (Package manager)
 - HTML (Markup)
 - SCSS (Styling)
 - TypeScript (Interactivity)
