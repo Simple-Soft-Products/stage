@@ -16,7 +16,7 @@ export class InternshipComponent {
   }
 
   // De einddatum van de stage. Deze wordt gebruikt om het verschil te gaan berekenen.
-  private endTime = new Date("12-31-2023 09:00")
+  private endDate = new Date("12-31-2023 09:00")
 
   // De interval die elke seconde de countdown functie gaat aanroepen.
   private $interval = interval(1000).subscribe(() => this.getRemainingTime())
@@ -34,6 +34,6 @@ export class InternshipComponent {
   // Deze functie wordt elke seconde aangeroepen en berekent het verschil tussen de einddatum en de huidige datum.
   getRemainingTime = () => {
     // Maak hier de countdown functie
-    // Tip: gebruik de endTime variabele
+    // Tip: gebruik de endDate variabele
   }
 }
